@@ -1,0 +1,67 @@
+div {
+    border: solid black 10px;
+    padding: 5px;
+    margin: 5px;
+}
+div[class*="x"] {
+    background-color: red;
+}
+div[class*="flex"] {
+    background-color: green;
+}
+div[class*="block"] {
+    background-color: blue;
+}
+div[class*="inline"] {
+    background-color: yellow;
+}
+.flex {
+    display: flex;
+}
+
+.x1 {
+    flex: 1;
+}
+
+.x2 {
+    flex: 2;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#mainevent {
+    width: 665px;
+    margin-left: 5%;
+    margin-top: 17px;
+}
+
+#right-content {
+    width: 475px;
+}
+
+#left-content {
+    width: 190px;
+}
+
+div*5 {
+    
+}
+
+div*5 {
+    
+}
